@@ -34,9 +34,9 @@
         android:text="musicoo"
         android:textColor="@color/white"
         android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
@@ -46,8 +46,8 @@
         android:text="LOGIN"
         android:textColor="@color/white"
         android:textSize="28sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
@@ -60,8 +60,8 @@
         android:textColor="@color/white"
         android:textFontWeight="600"
         android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
@@ -72,8 +72,8 @@
         android:text="Password"
         android:textColor="@color/white"
         android:textFontWeight="600"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
@@ -119,8 +119,8 @@
         android:id="@+id/button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Login"
         android:backgroundTint="@color/Green"
+        android:text="Login"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="@+id/editTextText2"
         app:layout_constraintHorizontal_bias="0.0"
