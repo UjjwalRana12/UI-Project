@@ -30,8 +30,9 @@
         android:text="musicoo"
         android:textColor="@color/white"
         android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView10"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <TextView
@@ -166,11 +167,11 @@
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
         android:layout_marginTop="4dp"
         android:text="Already have an account?"
         android:textColor="#FBFBFB"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
 
     <TextView
@@ -191,20 +192,21 @@
         android:layout_height="wrap_content"
         android:text="or"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="199dp"
-        tools:layout_editor_absoluteY="661dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="661dp" />
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="132dp"
+        android:layout_height="18dp"
         android:text="Sign Up With Google"
         android:textColor="#F4F0F0"
 
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="696dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="697dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
