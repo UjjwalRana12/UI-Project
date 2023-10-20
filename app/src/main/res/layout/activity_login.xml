@@ -195,7 +195,7 @@
         android:layout_width="64dp"
         android:layout_height="25dp"
         android:layout_marginTop="632dp"
-        android:text="Sign Up"
+        android:text="Login"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         android:textAlignment="center"
@@ -224,7 +224,7 @@
         android:id="@+id/textView18"
         android:layout_width="182dp"
         android:layout_height="37dp"
-        android:layout_marginTop="692dp"
+        android:layout_marginTop="700dp"
 
         android:text="Sign Up With Google"
         android:textAlignment="center"
@@ -232,7 +232,7 @@
         android:textColor="#F4F0F0"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintHorizontal_bias="0.611"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />

@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="109dp"
-        android:layout_height="137dp"
+        android:layout_width="137dp"
+        android:layout_height="165dp"
 
         android:fontFamily="@font/satisfy"
         android:text="m"
@@ -73,9 +73,9 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
         android:lineHeight="17dp"
         android:text="Password"
-        android:fontFamily="sans-serif-light"
         android:textColor="@color/white"
         android:textFontWeight="600"
         app:layout_constraintEnd_toEndOf="@+id/textView5"
@@ -85,37 +85,40 @@
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="282dp"
-        android:layout_height="46dp"
+        android:layout_width="281dp"
+        android:layout_height="52dp"
         android:layout_marginTop="296dp"
-        android:drawableLeft="@drawable/baseline_email_24"
-        android:ems="10"
-        android:inputType="text"
-        android:hint="Email"
-        android:textColorHint="@color/white"
-        android:drawablePadding="12dp"
-        android:text=""
         android:alpha="0.6"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="text"
+        android:text=""
         android:textColor="@color/white"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextText2"
-        android:layout_width="278dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="32dp"
-        android:drawableLeft="@drawable/baseline_lock_24"
-        android:ems="10"
-        android:inputType="text"
+        android:layout_width="285dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
         android:alpha="0.6"
-        android:text="Password"
-        android:textColor="@color/white"
+        android:drawableLeft="@drawable/baseline_lock_24"
         android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:text=""
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+
 
         app:layout_constraintEnd_toEndOf="@+id/editTextText"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/editTextText"
         app:layout_constraintTop_toBottomOf="@+id/editTextText" />
 
@@ -123,19 +126,19 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="420dp"
+        android:layout_marginTop="432dp"
         android:text="Forgot Password?"
         android:textColor="@color/white"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.785"
+        app:layout_constraintHorizontal_bias="0.788"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="271dp"
-        android:layout_height="47dp"
+        android:layout_width="293dp"
+        android:layout_height="55dp"
         android:layout_marginTop="496dp"
         android:backgroundTint="@color/Green"
         android:text="Login"
@@ -153,8 +156,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="552dp"
         android:text="Don't have an account?"
-        android:textSize="14sp"
         android:textColor="@color/white"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/button"
@@ -169,26 +172,25 @@
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.613"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="169dp"
-        android:layout_height="33dp"
+        android:layout_width="167dp"
+        android:layout_height="48dp"
 
         android:layout_marginTop="636dp"
-        android:text="Continue with Google"
-        android:textAlignment="center"
         android:src="@drawable/googleimage"
+        android:text="Continue with Google"
+
+        android:textAlignment="center"
 
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
