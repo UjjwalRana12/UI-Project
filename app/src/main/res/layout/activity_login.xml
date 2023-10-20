@@ -11,7 +11,7 @@
         android:id="@+id/textView10"
         android:layout_width="111dp"
         android:layout_height="141dp"
-        android:fontFamily="@font/satisfy"
+        android:fontFamily="cursive"
         android:text="m"
         android:textColor="#92E3A9"
         android:textColorHint="#92E3A9"
@@ -173,6 +173,8 @@
             android:layout_height="38dp"
             android:layout_marginTop="292dp"
             android:text="Create Account"
+
+            android:textColor="@color/black"
             android:backgroundTint="@color/Green"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.422"

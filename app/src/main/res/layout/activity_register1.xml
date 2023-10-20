@@ -45,6 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:text="LOGIN"
+
         android:textColor="@color/white"
         android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="@+id/textView"
@@ -56,6 +57,7 @@
         android:id="@+id/textView5"
         android:layout_width="260dp"
         android:layout_height="20dp"
+        android:fontFamily="sans-serif-light"
         android:lineHeight="17dp"
         android:text="please enter your email address and"
         android:textAlignment="center"
@@ -73,6 +75,7 @@
         android:layout_height="wrap_content"
         android:lineHeight="17dp"
         android:text="Password"
+        android:fontFamily="sans-serif-light"
         android:textColor="@color/white"
         android:textFontWeight="600"
         app:layout_constraintEnd_toEndOf="@+id/textView5"
@@ -136,6 +139,8 @@
         android:layout_marginTop="496dp"
         android:backgroundTint="@color/Green"
         android:text="Login"
+        android:textColor="@color/black"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView"
@@ -176,6 +181,8 @@
         android:layout_marginTop="636dp"
         android:text="Continue with Google"
         android:textAlignment="center"
+        android:src="@drawable/googleimage"
+
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
