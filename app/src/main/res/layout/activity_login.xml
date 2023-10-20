@@ -9,13 +9,14 @@
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="111dp"
+        android:layout_height="141dp"
         android:fontFamily="@font/satisfy"
         android:text="m"
         android:textColor="#92E3A9"
         android:textColorHint="#92E3A9"
-        android:textSize="112sp"
+        android:textSize="144sp"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -29,7 +30,6 @@
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="@+id/textView10"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -37,13 +37,13 @@
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="208dp"
+        android:layout_marginTop="196dp"
         android:text="Sign Up"
         android:textColor="#F4F2F2"
         android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintHorizontal_bias="0.477"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -74,30 +74,36 @@
 
         <EditText
             android:id="@+id/editTextText5"
-            android:layout_width="156dp"
-            android:layout_height="35dp"
+            android:layout_width="148dp"
+            android:layout_height="41dp"
             android:layout_marginTop="16dp"
+            android:alpha="0.6"
             android:ems="10"
+            android:hint="first name"
             android:inputType="text"
-            android:text="first name"
+            android:text=""
             android:textAlignment="textStart"
             android:textColor="@color/white"
+            android:textColorHint="@color/white"
             app:layout_constraintEnd_toStartOf="@+id/editTextText6"
-            app:layout_constraintHorizontal_bias="0.54"
+            app:layout_constraintHorizontal_bias="0.575"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints" />
 
         <EditText
             android:id="@+id/editTextText6"
-            android:layout_width="145dp"
-            android:layout_height="33dp"
+            android:layout_width="146dp"
+            android:layout_height="43dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="36dp"
+            android:alpha="0.6"
             android:ems="10"
+            android:hint="last name"
             android:inputType="text"
-            android:text="last name"
+            android:text=""
             android:textColor="@color/white"
+            android:textColorHint="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -108,6 +114,9 @@
             android:layout_marginTop="64dp"
             android:drawableLeft="@drawable/baseline_email_24"
             android:ems="10"
+            android:alpha="0.6"
+
+            android:drawablePadding="12sp"
             android:inputType="textEmailAddress"
             android:text="Email"
             android:textColor="@color/white"
@@ -122,6 +131,8 @@
             android:layout_width="333dp"
             android:layout_height="53dp"
             android:layout_marginTop="140dp"
+            android:drawablePadding="12sp"
+
             android:drawableLeft="@drawable/baseline_lock_24"
 
             android:ems="10"
@@ -134,6 +145,7 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress2"
             app:layout_constraintTop_toTopOf="parent"
+            android:alpha="0.6"
             tools:ignore="MissingConstraints" />
 
         <EditText
@@ -141,6 +153,9 @@
             android:layout_width="334dp"
             android:layout_height="59dp"
             android:layout_marginTop="212dp"
+            android:drawablePadding="12sp"
+            android:alpha="0.6"
+
             android:drawableLeft="@drawable/baseline_lock_24"
             android:ems="10"
             android:hint="Confirm password"
@@ -214,11 +229,11 @@
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="264dp"
+        android:layout_marginTop="252dp"
         android:text="Password"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/textView13"
-        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="@+id/textView13"
         app:layout_constraintTop_toTopOf="@+id/textView10" />
 
