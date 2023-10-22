@@ -6,9 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
     android:background="@color/black">
-
-
-
     <TextView
         android:id="@+id/textView10"
         android:layout_width="128dp"
@@ -79,7 +76,7 @@
         <EditText
             android:id="@+id/editTextText5"
             android:layout_width="144dp"
-            android:layout_height="47dp"
+            android:layout_height="48dp"
             android:layout_marginTop="8dp"
             android:alpha="0.6"
             android:ems="10"
@@ -98,7 +95,7 @@
         <EditText
             android:id="@+id/editTextText6"
             android:layout_width="147dp"
-            android:layout_height="45dp"
+            android:layout_height="48dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:alpha="0.6"
@@ -140,11 +137,9 @@
             android:drawablePadding="12sp"
 
             android:drawableLeft="@drawable/baseline_lock_24"
-
             android:ems="10"
             android:hint="Password"
             android:inputType="textPassword"
-
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress2"
@@ -176,10 +171,9 @@
         <Button
             android:id="@+id/button2"
             android:layout_width="321dp"
-            android:layout_height="38dp"
+            android:layout_height="48dp"
             android:layout_marginTop="292dp"
             android:text="Create Account"
-
             android:textColor="@color/black"
             android:backgroundTint="@color/Green"
             app:layout_constraintEnd_toEndOf="parent"
@@ -194,30 +188,16 @@
         android:id="@+id/textView16"
         android:layout_width="64dp"
         android:layout_height="25dp"
-        android:layout_marginTop="632dp"
+        android:layout_marginTop="644dp"
         android:text="Login"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textSize="15sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView15"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:text="or"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.554"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -232,7 +212,7 @@
         android:textColor="#F4F0F0"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -253,13 +233,11 @@
         android:id="@+id/textView15"
         android:layout_width="198dp"
         android:layout_height="31dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="632dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="644dp"
         android:text="Already have an account?"
         android:textColor="#FBFBFB"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
